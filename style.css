@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.begin {
+    width: 100%;
+    height: 100vh;
+    background-image: url('imagens/computer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+}
+
+.popup a {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: 3px solid purple;
+    color: purple;
+    background: white;
+}
+
+.popup a:hover {
+    color: white;
+    background: black;
+}
+
+#box {
+    display: none;
+    flex-direction: column;
+    background: linear-gradient(to left, black, purple);
+    width: 400px;
+    height: 320px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px gray;
+}
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    height: 30px;
+    color: white;
+}
+
+#name{              
+    margin: 40px 10px 10px 50px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#email{
+    margin: 10px 10px 10px 50px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#password {
+    margin: 10px 10px 10px 50px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+#password input {
+    width: 50%; 
+}
+
+input {
+    width: 60%;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 3px solid purple;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.btn a {
+    background: white;
+    padding: 10px 15px;
+    width: 100px;
+    background: white;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+   /* transition: 0.5s ease;*/
+    border: 3px solid purple;
+}
+
+.btn a:hover {
+    background: black;
+    color: white;
+}
+
+.exit {
+    position: absolute;
+    left: 95%;
+    color: white;
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.exit:hover{
+    color: red;
+}
+
+.login {
+    width: 200px;
+    height: 100px;
+}
+
+
+.login a {
+    background: black;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+
+
+/*Second*/
+
+
+.second {
+    width: 100%;
+    background: purple;
+    display: none;
+}
+
+.info {
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 20px 0 40px 0;
+    background: white;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+
+.info h1 {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.info h2 {
+    font-size: 1.2rem;
+    padding: 50px 50px;
+}
+
+.info p {
+    padding: 0 50px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.imagem {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.imagem img {
+    width: 80%;
+    max-width: 600px;
+    max-height: 400px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 60px;
+    width: 100%;
+    background: black;
+}
+
+footer h3 {
+    color: white;
+}
+
+footer a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    font-family: cursive;
+    transition: 0.3s ease-in-out;
+}
+
+footer a:hover{
+    color: yellow;
+    transform: translateY(-3px);
+}
+
+@media screen and (min-width: 1200px) and (max-width: 3000px) {
+    .second .info {
+        width: 1200px;
+        margin-bottom: 40px;
+    }
+
+    .second {
+        padding-top: 50px;
+    }
+
+    
+
+}
+
+
+
+
+
+
