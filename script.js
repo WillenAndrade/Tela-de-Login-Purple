@@ -6,6 +6,8 @@ var second = document.querySelector('.second')
   
   function login() {
         box.style.display = 'flex';
+        popup.style.display = 'none';
+        
    }
    
    
